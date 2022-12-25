@@ -12,7 +12,7 @@
 
 ### 1.2. GolfDB 소개
   
-<img src="../../img/golf1.png" width='400'>
+<img src="../img/golf1.png" width='400'>
   
     1. 1400개의 390K 프레임,HD화질의 프로 골퍼의 스윙 영상 - YouTube 추출
     2. BB와 클럽의 타입(아이언, 드라이버 등)에 대한 라벨, 선수 성별도 존재
@@ -56,7 +56,7 @@
 
 # 5. SwingNet: A Swing Sequencing Network
 ### 5.1. Network Architecture
-<img src="../../img/golf2.png" width=700>
+<img src="../img/golf2.png" width=700>
 
     1. image classification으로 MobileNetV2를 쓰며, 이 때 event는 위에 정의한 8가지와 non-event로 총 9가지로 구성된다.
     2. temporal information을 얻기 위해 MobileNetV2로 얻은 벡터를 biLSTM에 넣는다.
